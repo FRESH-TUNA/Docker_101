@@ -1,2 +1,0 @@
-#!/usr/bin/env bash -e
-docker exec docker_101_web_1 bash -c                          'bundle install && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem' $@
